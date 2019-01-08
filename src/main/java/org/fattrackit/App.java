@@ -9,6 +9,7 @@ public class App
 
     public static void main( String[] args )
     {
+
         System.out.println( "Hello World!" );
                 Animal firstAnimal = new Animal();
         firstAnimal.name = "Lola";
@@ -44,7 +45,8 @@ public class App
         veterinarian.specialization = "general";
         veterinarian.availability = true;
         veterinarian.theAmountOfMoneyAvailable = 2500;
-        
+
+
 
 
 
