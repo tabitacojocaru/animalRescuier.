@@ -51,7 +51,9 @@ public class App
         veterinarian.availability = true;
         veterinarian.theAmountOfMoneyAvailable = 2500;
 
+Adopter.feed("Lola",  "Whiskas");
 
+Adopter.walk("Jhon", "to walk", "Lola");
     }
 
 

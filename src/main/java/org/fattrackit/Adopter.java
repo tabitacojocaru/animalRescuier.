@@ -12,4 +12,17 @@ public class Adopter extends Humans {
     public Adopter() {
         super("Jhon");
     }
+
+    public static void feed(String nameOfAnimal, String favoriteFood){
+        System.out.println("Adopter feed the cat: "+  nameOfAnimal +  " with " + favoriteFood);
+
+    }
+    public static void walk(String nameOfAdopter, String nameOfRecreationalActivity, String nameOfCat){
+        System.out.println(nameOfAdopter + " go "+ nameOfRecreationalActivity+" with "+nameOfCat);
+    }
+
+
+
+
 }
+
