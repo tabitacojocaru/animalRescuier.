@@ -12,4 +12,11 @@ public class Animal extends Creatures {
     int theLevelOfHunger;
     int theLeverOfMood;
 
-}
+
+    public Animal(String species) {
+        super(species);
+    }
+
+    }
+
+

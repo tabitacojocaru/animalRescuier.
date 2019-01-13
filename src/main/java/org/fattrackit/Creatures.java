@@ -9,4 +9,9 @@ public class Creatures {
     boolean fur;
     boolean disease;
 
-}
+    public Creatures(String species){
+        this.species = species;
+    }
+
+    }
+

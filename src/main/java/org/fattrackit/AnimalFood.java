@@ -10,5 +10,11 @@ public class AnimalFood {
     boolean availability;
     LocalDateTime expiryDate;
 
+    public AnimalFood(String name) {
+        this.name = name;
+    }
 
+    public AnimalFood() {
+
+    }
 }

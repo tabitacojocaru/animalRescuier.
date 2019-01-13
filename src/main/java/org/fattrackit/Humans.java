@@ -5,5 +5,11 @@ public class Humans {
     String sex;
     int age;
 
+    public Humans(String name) {
+        this.name = name;
+    }
 
+    public Humans() {
+
+    }
 }

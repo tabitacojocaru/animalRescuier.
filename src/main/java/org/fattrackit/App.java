@@ -1,5 +1,7 @@
 package org.fattrackit;
 
+import java.util.concurrent.Callable;
+
 /**
  * Hello world!
  *
@@ -11,7 +13,10 @@ public class App
     {
 
         System.out.println( "Hello World!" );
-                Animal firstAnimal = new Animal();
+
+
+
+                Animal firstAnimal = new Animal("Cat");
         firstAnimal.name = "Lola";
         firstAnimal.age = 1;
         firstAnimal.favoriteClothes = "overall";
@@ -45,14 +50,6 @@ public class App
         veterinarian.specialization = "general";
         veterinarian.availability = true;
         veterinarian.theAmountOfMoneyAvailable = 2500;
-
-
-
-
-
-
-
-
 
 
     }

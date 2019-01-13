@@ -7,4 +7,11 @@ public class Veterinarian extends Humans{
     float workhours;
     boolean availability;
 
+    public Veterinarian(String name) {
+        super(name);
+    }
+
+    public Veterinarian() {
+        super();
+    }
 }
