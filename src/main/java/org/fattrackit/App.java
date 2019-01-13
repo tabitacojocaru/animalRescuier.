@@ -17,7 +17,7 @@ public class App
         firstAnimal.favoriteClothes = "overall";
         firstAnimal.favoriteRecreationalActivity = "toWalk";
         firstAnimal.favoriteFood = "Whiskas";
-        firstAnimal.theAmountOfMoneyAvailable = 20;
+        firstAnimal.AmountOfMoneyAvailable = 20;
         firstAnimal.favoriteMusic = "Clasic";
 
 
