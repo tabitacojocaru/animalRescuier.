@@ -1,17 +1,25 @@
 package org.fattrackit;
 
 public class Creatures {
-    String species;
-    String race;
-    String name;
-    String color;
-    double age;
-    boolean fur;
-    boolean disease;
+    private String species;
+    private String race;
+    private String name;
+    private String color;
+    private double age;
+    private boolean fur;
+    private boolean disease;
 
-    public Creatures(String species){
+    Creatures(String species) {
         this.species = species;
     }
 
+    public String getSpecies() {
+        return species;
     }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+}
+
 

@@ -3,7 +3,7 @@ package org.fattrackit;
 public class Animal extends Creatures {
 
 
-    public double AmountOfMoneyAvailable;
+    private double AmountOfMoneyAvailable;
     String favoriteMusic;
     String favoriteClothes;
     String favoriteFood;
@@ -12,11 +12,11 @@ public class Animal extends Creatures {
     int theLevelOfHunger;
     int theLeverOfMood;
 
-
-    public Animal(String species) {
+    Animal(String species) {
         super(species);
     }
 
-    }
+
+}
 
 

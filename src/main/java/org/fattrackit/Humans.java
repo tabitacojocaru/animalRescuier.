@@ -1,15 +1,20 @@
 package org.fattrackit;
 
 public class Humans {
-    String name;
-    String sex;
-    int age;
+    private String name;
+    private String sex;
+    private int age;
 
-    public Humans(String name) {
+    Humans(String name) {
         this.name = name;
     }
 
-    public Humans() {
-
+    public String getName() {
+        return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }

@@ -5,11 +5,9 @@ public class RecreationalActivity {
     String favoriteRecreationalActivity;
     float time;
 
-    public RecreationalActivity(String name) {
+    RecreationalActivity activity = new RecreationalActivity("walk");
+
+    RecreationalActivity(String name) {
         this.name = name;
-    }
-
-    public RecreationalActivity() {
-
     }
 }
