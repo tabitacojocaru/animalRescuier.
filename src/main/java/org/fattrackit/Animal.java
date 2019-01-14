@@ -15,6 +15,7 @@ public class Animal extends Creatures {
         super(species);
     }
 
+
     public String getFavoriteMusic() {
         return favoriteMusic;
     }

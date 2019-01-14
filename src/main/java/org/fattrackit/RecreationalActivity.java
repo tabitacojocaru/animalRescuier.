@@ -5,7 +5,7 @@ public class RecreationalActivity {
     private String favoriteRecreationalActivity;
     private float time;
 
-    RecreationalActivity activity = new RecreationalActivity("walk");
+
 
 
     RecreationalActivity(String name) {

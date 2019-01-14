@@ -7,7 +7,7 @@ public class Veterinarian extends Humans {
     private float workhours;
     private boolean availability;
 
-    Veterinarian veterinarian = new Veterinarian("Thomas");
+
 
 
     Veterinarian(String name) {

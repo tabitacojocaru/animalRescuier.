@@ -9,6 +9,9 @@ public class Adopter extends Humans {
         super(name);
     }
 
+
+
+
     public float getTheAmountOfMoneyAvailable() {
         return theAmountOfMoneyAvailable;
     }
