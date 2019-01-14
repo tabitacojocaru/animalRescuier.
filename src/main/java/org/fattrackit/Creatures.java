@@ -20,6 +20,54 @@ public class Creatures {
     public void setSpecies(String species) {
         this.species = species;
     }
+
+    public String getRace() {
+        return race;
+    }
+
+    public void setRace(String race) {
+        this.race = race;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getAge() {
+        return age;
+    }
+
+    public void setAge(double age) {
+        this.age = age;
+    }
+
+    public boolean isFur() {
+        return fur;
+    }
+
+    public void setFur(boolean fur) {
+        this.fur = fur;
+    }
+
+    public boolean isDisease() {
+        return disease;
+    }
+
+    public void setDisease(boolean disease) {
+        this.disease = disease;
+    }
 }
 
 
