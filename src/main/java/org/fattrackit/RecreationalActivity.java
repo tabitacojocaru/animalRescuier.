@@ -6,15 +6,20 @@ public class RecreationalActivity {
     private float time;
 
 
-
-
     RecreationalActivity(String name) {
         this.name = name;
     }
-    public String getName(){
-        return  name;
+
+    public void walk(String favoriteRecreationalActivity) {
+        this.favoriteRecreationalActivity = favoriteRecreationalActivity;
     }
-    public void setName(String name){
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 

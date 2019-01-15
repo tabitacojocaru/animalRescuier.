@@ -9,8 +9,9 @@ public class Creatures {
     private boolean fur;
     private boolean disease;
 
-    Creatures(String species) {
+    Creatures(String species, String name) {
         this.species = species;
+        this.name = name;
     }
 
     public String getSpecies() {

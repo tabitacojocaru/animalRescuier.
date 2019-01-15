@@ -12,6 +12,19 @@ public class App {
         System.out.println("Hello World!");
 
 
+        Animal animal = new Animal("Cat", "Lola");
+
+        AnimalFood food = new AnimalFood("Whiskas");
+        food.setFavoriteFood("Whiskas");
+
+        Adopter adopter = new Adopter("Jhon");
+        System.out.println("The cat's name is: " + animal.getName() + ", and she eat: " + food.getFavoriteFood() + ".");
+
+
+        RecreationalActivity activity = new RecreationalActivity("Walk");
+
+        System.out.println(adopter.getName() + " walks with " + animal.getName() + ".");
+
 
     }
 

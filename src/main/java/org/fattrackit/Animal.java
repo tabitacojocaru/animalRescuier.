@@ -11,10 +11,9 @@ public class Animal extends Creatures {
     private int theLevelOfHunger;
     private int theLeverOfMood;
 
-    Animal(String species) {
-        super(species);
+    Animal(String species,String name) {
+        super(species, name);
     }
-
 
     public String getFavoriteMusic() {
         return favoriteMusic;
